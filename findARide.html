@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wildcat Way Ridesharing</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+	nav.navbar.navbar-inverse { border-radius:0px; }
+	</style>
+</head>
+<body>
+	
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-xs-10"><h1>Wildcat Way</h1></div>
+	<div class="col-xs-2"><a class="btn btn-default" href="#" role="button">Login/Signup</a></div>
+	</div>
+	</div>
+	<nav class="navbar navbar-inverse">
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+                <li class="active">
+                    <a href="findARide.html">Find a Ride</a>
+                </li>
+                <li class="active">
+                    <a href="getARide.html">Give a Ride</a>
+                </li>
+				<li>
+					<a href="http://www.wsdot.com/traffic/passes/">WSDOT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+	<div class="row">
+	<!-- Sidebar -->
+	<div class="col-sm-2">
+	    <h2>Sort (Copy Kyle's Sidebar):</h2>
+        <h3> Distance:</h3>
+        <form action="">
+            <input type="radio" name="distance"> 11-25<br />
+            <input type="radio" name="distance"> 26-50<br />
+            <input type="radio" name="distance"> 51< <br />
+            <input type="radio" name="distance"> No restriction
+        </form>
+        <h3> Price:</h3>
+        <form action="">
+            <input type="radio" name="price"> < 10<br />
+            <input type="radio" name="price"> 11-25<br />
+            <input type="radio" name="price"> 25 < <br />
+            <input type="radio" name="price"> No restriction
+        </form>
+        <h3> Gender:</h3>
+        <form action="">
+            <input type="radio" name="gender"> female<br />
+            <input type="radio" name="gender"> male<br />
+            <input type="radio" name="gender"> No restriction
+        </form>
+	</div>
+	<!-- Sidebar end -->
+	<!-- Main content end -->
+    <div class="col-sm-1">
+    </div>
+	<div class="col-sm-5">
+	<h2>Find a Ride</h2>
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">Kim Possible ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Yolo McSwaggins ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">G Easy ($0)<br /> Bags: 2 max</button>
+            <button type="button" class="btn btn-default">Joe Shmoe ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Bill Cypher ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Fake Student1 ($0)<br /> Bags: 2 max</button>
+            <button type="button" class="btn btn-default">Fake Student2 ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Fake Student3 ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Pepe Frog ($0)<br /> Bags: 2 max</button>
+            <button type="button" class="btn btn-default">Troll Face ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Slender Man ($5)<br />Bags: 5 max</button>
+            <button type="button" class="btn btn-default">Wall E ($0)<br /> Bags: 2 max</button>
+        </div>
+	<!-- main content end -->
+	</div>
+    <div class="col-sm-4">
+        <h2>Request a ride</h2>
+        <form action="" method="get">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Name</span>
+                <input type="text" class="form-control" placeholder="First/Last" aria-describedby="basic-addon1">
+                <span class="input-group-addon" id="basic-addon1">Distance</span>
+                <input type="text" class="form-control" placeholder="mi" aria-describedby="basic-addon1">
+                <span class="input-group-addon" id="basic-addon1">Bags</span>
+                <input type="text" class="form-control" placeholder="#" aria-describedby="basic-addon1">
+            </div>
+    <button type="submit">Submit</button><br>
+</form> 
+    </div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	</script> 
+	<script src="js/bootstrap.min.js">
+	</script>
+</body>
+</html>
